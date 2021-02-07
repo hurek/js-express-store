@@ -8,8 +8,8 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express", "javascript", "mongodb"],
+  "author": "Hurek",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
