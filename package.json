@@ -8,12 +8,18 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["express", "javascript", "mongodb"],
+  "keywords": [
+    "express",
+    "javascript",
+    "mongodb"
+  ],
   "author": "Hurek",
   "license": "ISC",
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
+    "mongoose": "^5.11.15",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
