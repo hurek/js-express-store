@@ -13,7 +13,8 @@ router.post('/', async (req, res) => {
   const course = new Course({
     title: req.body.title,
     price: req.body.price,
-    img: req.body.img
+    img: req.body.img,
+    ownerId: req.user
   });
 
   try {
@@ -22,8 +23,6 @@ router.post('/', async (req, res) => {
   } catch (err) {
     console.log(err);
   }
-
-
 });
 
 module.exports = router;

@@ -8,14 +8,14 @@ document.querySelectorAll('.price').forEach(node => {
   node.textContent = toCurrency(node.textContent)
 })
 
-const $card = document.querySelector('#card')
+const $card = document.querySelector('#cart')
 
 if ($card) {
   $card.addEventListener('click', event => {
     if (event.target.classList.contains('js-remove')) {
       const id = event.target.dataset.id;
       
-      fetch('/card/remove/' + id, {
+      fetch('/cart/remove/' + id, {
         method: 'delete'
       }).then(res => res.json())
         .then(card => {
