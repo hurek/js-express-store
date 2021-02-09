@@ -1,0 +1,7 @@
+module.exports = {
+  MONGODB_URI: 'mongodb+srv://LOGIN:KEY@LINK',
+  SESSION_SECRET: 'SESSIONSECRET',
+  SENDGRID_API_KEY: 'MAIL_SERVICE_APIKEY',
+  EMAIL_FROM: 'EMAIL_FROM',
+  BASE_URL: 'http://localhost:3000'
+}
